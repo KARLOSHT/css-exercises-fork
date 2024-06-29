@@ -1,0 +1,38 @@
+/* OPTION 1
+div {
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+  } 
+*/
+
+/* OPTION 2
+.container {
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+  } 
+*/
+/*
+div.container {
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+  } 
+*/
+
+.container .text {
+  background-color: yellow;
+  color: #E00000;
+  font-size: 20px;
+  text-align: center;
+}
+/* OTHERS
+other possible descendant combinators
+div p
+div .text
+.container p
+*/
