@@ -1,0 +1,17 @@
+  .odd {
+    background-color: rgb(224, 161, 146);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+  }
+  #two{
+    color: blue;
+    font-size: 36px;
+  }
+  .three{
+    font-size: 24px;
+  }
+  #four{
+    background-color: rgb(99, 183, 99);
+    font-size: 24px;
+    font-weight: bold;
+  } /* to help reduce duplicate code I could, since elements #3 & #4 share same font-size
+    could have also added same attribute*/
