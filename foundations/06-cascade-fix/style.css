@@ -13,7 +13,7 @@ body {
 .para {
   font-size: 22px;
 }
-
+/*if I remove .small-para rule like in the official solution I get different result... check deeper*/
 .small-para {
   font-size: 14px;
   font-weight: 800;
